@@ -2,10 +2,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingTop="16dp"
-    android:paddingBottom="16dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
     android:orientation="vertical">
 
     <ImageView
@@ -14,7 +14,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:scaleType="centerCrop"
-        android:layout_marginBottom="8dp" />
+        android:layout_marginBottom="0dp" />
 
     <TextView
         android:text="You're invited!"
@@ -22,6 +22,8 @@
         android:layout_height="wrap_content"
         android:textColor="@android:color/white"
         android:textSize="45sp"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
         android:background="#009688"/>
 
     <TextView
@@ -29,6 +31,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@android:color/white"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="8dp"
         android:textSize="24sp"
         android:background="#009688"/>
 
